@@ -1,0 +1,161 @@
+{
+	"id": "c900f7b9-b62d-4794-bfda-f37a06533f69",
+	"name": "COURSES",
+	"timestamp": "2022-10-08T11:33:35.073Z",
+	"collection_id": "23051143-f7b4af5c-954d-409a-a67b-a8203ab52861",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "97e07242-badf-4626-9a53-f71ac44ff459",
+			"name": "LIST COURSES",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses",
+			"time": 929,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"To check if status code is 200": true,
+				"To test if response body has a value location": true,
+				"to test if response header has date": true,
+				"Response time is above than 200ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"To check if status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"To test if response body has a value location": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to test if response header has date": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is above than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				929
+			],
+			"allTests": [
+				{
+					"To check if status code is 200": true,
+					"To test if response body has a value location": true,
+					"to test if response header has date": true,
+					"Response time is above than 200ms": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "1e003a75-b203-4d73-a13b-43733d6c11e8",
+			"name": "GET COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1264",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				157
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "11ea5ee9-df3b-4e7f-b57e-3545d6a8d0f0",
+			"name": "DELETE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/36",
+			"time": 157,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				157
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f0776eea-ebed-4b62-8611-9e29ae086aee",
+			"name": "CREATE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/",
+			"time": 199,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				199
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c1ee4520-09a3-4b42-99df-70bc7bf4a696",
+			"name": "UPDATE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1264",
+			"time": 173,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				173
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1615,
+	"collection": {
+		"requests": [
+			{
+				"id": "97e07242-badf-4626-9a53-f71ac44ff459",
+				"method": "GET"
+			},
+			{
+				"id": "1e003a75-b203-4d73-a13b-43733d6c11e8",
+				"method": "GET"
+			},
+			{
+				"id": "11ea5ee9-df3b-4e7f-b57e-3545d6a8d0f0",
+				"method": "DELETE"
+			},
+			{
+				"id": "f0776eea-ebed-4b62-8611-9e29ae086aee",
+				"method": "POST"
+			},
+			{
+				"id": "c1ee4520-09a3-4b42-99df-70bc7bf4a696",
+				"method": "PUT"
+			}
+		]
+	}
+}
